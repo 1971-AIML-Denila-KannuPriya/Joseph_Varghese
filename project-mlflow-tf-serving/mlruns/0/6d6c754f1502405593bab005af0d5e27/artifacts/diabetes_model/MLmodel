@@ -1,0 +1,18 @@
+artifact_path: diabetes_model
+flavors:
+  keras:
+    data: data
+    keras_backend: tensorflow
+    keras_version: 3.4.1
+    save_exported_model: false
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.keras
+    python_version: 3.12.4
+mlflow_version: 2.15.1
+model_size_bytes: 24907
+model_uuid: 81073f76431b4c1eb3838fded249d6db
+run_id: 6d6c754f1502405593bab005af0d5e27
+utc_time_created: '2024-10-17 11:06:56.332944'
